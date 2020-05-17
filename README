@@ -1,0 +1,5 @@
+# Ubuntu 20.04 Focal Setup Scripts
+
+## Known issues
+
+- Some Gnome Extensions like the Night-light Slider will have an issue after you install it via these scripts then update it from the Gnome Extension site ... the schemas folder is missing a .compile file that is fixed by running `glib-compile-schemas schemas` in the parent directory of the schemas directory
