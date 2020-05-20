@@ -3,14 +3,3 @@ https://gitlab.gnome.org/GNOME/gnome-shell-extensions
 https://gitlab.gnome.org/GNOME/gnome-shell-extensions/-/tree/master/extensions/user-theme
 
 
-
-Extensions = https://extensions.gnome.org/extension/1036/extensions/
-https://github.com/petres/gnome-shell-extension-extensions
-
-- subfolder IS the uuid here
-
-
-Extension Updater - https://github.com/franglais125/update-extensions
-* there is no sub folder in the git repo ... this entire thing gets moved
-* there is a make file
-* use gitGnomeExt_makeInstall function for this one
