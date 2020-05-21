@@ -2,6 +2,13 @@
 
 # Ubuntu 20.04 Focal Setup Scripts
 
+The goal of this is not to be a carbon copy of [my Linux Setup scripts](https://github.com/Xmetalfanx/linuxSetup) to setup any distro faster, but rather to add and tweak a few things in Ubuntu (Gnome) 20.04.
+
+I may move some of this code over to that other repo but with Gnome Extensions being SO picky on which Gnome version you are on, that may be a problem ... The Gnome tweaks section in this I think would be doable though, moving to my Linux Setup Scripts
+
 ## Known issues
 
-- Some Gnome Extensions like the Night-light Slider will have an issue after you install it via these scripts then update it from the Gnome Extension site ... the schemas folder is missing a .compile file that is fixed by running `glib-compile-schemas schemas` in the parent directory of the schemas directory
+- Some Gnome Extensions will have an issue after you install it via these scripts then update it from the Gnome Extension site ... the schemas folder is missing a .compile file that is fixed by running `glib-compile-schemas schemas` in the parent directory of the schemas directory
+
+    - I am considering a "Fix" menu or something for effected extensions
+
