@@ -1,4 +1,4 @@
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/72303efb6af547b4a9973fc364a2335d)](https://www.codacy.com/manual/Xmetalfanx/ubuntuFocalSetup?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Xmetalfanx/ubuntuFocalSetup&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/72303efb6af547b4a9973fc364a2335d)](https://www.codacy.com/manual/Xmetalfanx/ubuntuFocalSetup?utm_source=github.com&utm_medium=referral&utm_content=Xmetalfanx/ubuntuFocalSetup&utm_campaign=Badge_Grade)
 
 # Ubuntu 20.04 Focal Setup Scripts
 
@@ -8,7 +8,8 @@ I may move some of this code over to that other repo but with Gnome Extensions b
 
 ## Known issues
 
-- Some Gnome Extensions will have an issue after you install it via these scripts then update it from the Gnome Extension site ... the schemas folder is missing a .compile file that is fixed by running `glib-compile-schemas schemas` in the parent directory of the schemas directory
+### Some Gnome Extensions will have an issue after you install it via these scripts then update it from the Gnome Extension site ... the schemas folder is missing a .compile file that is fixed by running `glib-compile-schemas schemas` in the parent directory of the schemas directory
 
     - I am considering a "Fix" menu or something for effected extensions
 
+### I think the "Gnome Refresh" thing DOESN'T work if the user is on Wayland .... this may not be an issue with Ubuntu for now, but if I port this to my LinuxSetup Scripts ... I have to account for that

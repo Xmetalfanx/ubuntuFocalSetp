@@ -2,7 +2,7 @@
 
 configDir=$(eval pwd)/configs
 
-. $configDir/includeConfigs.cfg
+.$configDir/includeConfigs.cfg
 
 ## How can i enable the unchecked repos from the command line?
 
@@ -22,7 +22,7 @@ function updateSystem()
 
     echo -e "System Updated"
     userPrompt
-    
+
 }
 
 main
