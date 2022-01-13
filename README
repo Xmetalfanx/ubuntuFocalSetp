@@ -1,7 +1,8 @@
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/72303efb6af547b4a9973fc364a2335d)](https://www.codacy.com/manual/Xmetalfanx/ubuntuFocalSetup?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Xmetalfanx/ubuntuFocalSetup&amp;utm_campaign=Badge_Grade)
+## Jan 2022 Update: 
+I was going to consider refreshing this and making sure things worked but we are so close to the 22.04 LTS i am going to archive this repo 
 
-# Ubuntu 20.04 Focal Setup Scripts
+## Ubuntu 20.04 Focal Setup Scripts
 
-## Known issues
+### Known issues
 
 - Some Gnome Extensions like the Night-light Slider will have an issue after you install it via these scripts then update it from the Gnome Extension site ... the schemas folder is missing a .compile file that is fixed by running `glib-compile-schemas schemas` in the parent directory of the schemas directory
